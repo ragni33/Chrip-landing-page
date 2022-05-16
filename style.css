@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,900&family=Roboto:ital,wght@0,300;0,400;1,300;1,400;1,700;1,900&family=Rubik:ital,wght@0,300;1,400;1,800;1,900&display=swap');
+
+.navbar{
+    background-color: rgba(255, 182, 193, 0.678);
+}
+
+.navbar .navbar-brand
+{
+    font-style: italic;
+    color: blue; margin-left: 100px;
+}
+.navbar-text{
+    font-style: none;
+    text-decoration: none; float: right;
+ 
+
+}
+.navbar-text a{
+    margin: 10px;
+}
+
+.navbar-text #signbtn{
+    width: 200px; color: white;
+}
+@media (max-width :700px) {
+  .navbar-text{
+      display: block;
+      background-color: lightblue;
+      width: 100%;
+      height: 400px;
+      
+  }
+  .navbar-text a{
+   display: block; text-align: center; font-weight: 100;
+   margin-top: 40px; text-decoration: none; list-style: none;
+
+  }
+  .navbar-text #signbtn{
+    margin-left: 130px;display: block; text-align: center;
+  }
+  .navbar .navbar-brand{
+      margin-right: 200px;
+  }
+}
+
+@media (max-width: 600px){
+    #logo{
+        margin-left: -20px;
+    }
+}
+
+#heading1{
+  font-weight: bolder;
+  font-size: 40px; 
+}
+
+#heroimg{
+    text-align: center; margin: 20px;
+}
+.user1 {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+.user2{
+    position: relative;
+    right: 20px;
+}
+    .user3{
+        position: relative;
+        right: 40px;
+    }
+
+    .user4{
+        position: relative;
+        right: 60px;
+    }
+
+    .user5{
+        position: relative;
+        right: 80px;
+    }
+    .user6{
+        position: relative;
+        right: 100px;
+    }
+    .user7{
+        position: relative;
+        right: 120px;
+    }
+
+
+    .container h2{
+        font-weight: bolder;
+        font-size: 30px;
+    }
+
+
+    @media (max-width: 700px) {
+        #customebase{
+            justify-content: center;
+            align-content: center;
+        }
+    }
+
+    .footer-items{
+        float: right;
+        margin-top: -30px;
+    }
+
+    .footer{
+        height: 10px;
+    }
+    .footer-items a{
+        margin: 10px;
+    }
